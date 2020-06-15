@@ -80,7 +80,11 @@
           >Copy as HTML</el-button>
         </el-button-group>
         <br>
-        <el-popover
+        <router-link
+          to="faq"
+          class="setup-instruction"
+        >Show setup instruction</router-link>
+        <!-- <el-popover
           placement="top"
           width="260"
         >
@@ -93,7 +97,7 @@
           <p>Click on "Copy as HTML" button and paste snippet of your signature into your email client settings.</p>
           <h3>Advance usage:</h3>
           <p>For some email clients, like gmail, you may using simply copy/paste highlight selection. Click on "Copy as Select" button and paste of your signature into your email client settings.</p>
-        </el-popover>
+        </el-popover> -->
       </div>
       <textarea
         ref="html"

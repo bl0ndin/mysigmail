@@ -44,13 +44,13 @@
           />
         </el-col>
       </el-row>
-      <el-form-item>
+      <!-- <el-form-item>
         <el-button
           type="primary"
           style="width: 100%;"
           @click="onAddField"
         >Add custom field</el-button>
-      </el-form-item>
+      </el-form-item> -->
     </el-form>
     <!-- Add new field dialog -->
     <el-dialog
@@ -94,12 +94,12 @@
             </el-form-item>
           </el-col>
         </el-row>
-        <el-form-item style="text-align: right;">
+        <!-- <el-form-item style="text-align: right;">
           <el-button
             type="primary"
             @click="addField"
           >Add field</el-button>
-        </el-form-item>
+        </el-form-item> -->
       </el-form>
     </el-dialog>
   </div>

@@ -30,7 +30,7 @@ export default {
       dispatch('resetProject')
 
       const project = {
-        template: 'SignatureTemplate1',
+        template: 'SteapStailor',
         basic: { ...rootState.basic },
         options: { ...rootState.options },
         addons: {

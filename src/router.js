@@ -39,6 +39,12 @@ export default new Router({
       meta: { title: 'Projects' },
       component: () =>
         import(/* webpackChunkName: "projects" */ './views/Projects.vue')
+    },
+    {
+      path: '/faq',
+      meta: { title: 'FAQ' },
+      component: () =>
+        import(/* webpackChunkName: "basic" */ './views/FAQ.vue')
     }
   ]
 })
