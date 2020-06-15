@@ -1,7 +1,7 @@
 <template>
   <div class="basic">
     <el-form>
-      <el-form-item>
+      <!-- <el-form-item>
         <div class="image-preview-wrapper">
           <div
             class="image-preview"
@@ -31,7 +31,7 @@
             </div>
           </div>
         </div>
-      </el-form-item>
+      </el-form-item> -->
       <el-row :gutter="20">
         <el-col
           v-for="(item, index) in basic.fields"
@@ -109,14 +109,14 @@
 import { mapState } from 'vuex'
 import { guid } from '../util/helpers'
 import FieldItem from './FieldItem'
-import Upload from '@/components/Upload'
+// import Upload from '@/components/Upload'
 
 export default {
   name: 'Basic',
 
   components: {
-    FieldItem,
-    Upload
+    FieldItem
+    // Upload
   },
 
   data () {

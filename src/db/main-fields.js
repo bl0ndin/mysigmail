@@ -9,9 +9,15 @@ function seed () {
     { name: 'Full name', type: 'text', value: '' },
     { name: 'Job title', type: 'text', value: '' },
     { name: 'Company', type: 'text', value: '' },
-    { name: 'Website', type: 'link', value: '' },
-    { name: 'Email', type: 'email', value: '' },
-    { name: 'Phone', type: 'text', value: '' }
+    { name: 'Company line 2', type: 'text', value: '' },
+    { name: 'Address', type: 'text', value: '' },
+    { name: 'Address line 2', type: 'text', value: '' },
+    { name: 'ZIP code', type: 'text', value: '' },
+    { name: 'City', type: 'text', value: '' },
+    { name: 'Country', type: 'text', value: '' },
+    { name: 'Mob', type: 'mobile', value: '' },
+    { name: 'Tel', type: 'phone', value: '' },
+    { name: 'Email', type: 'email', value: '' }
   ]
 
   basic.forEach(item => {
@@ -23,12 +29,18 @@ function seed () {
 
 function addPlaceholder () {
   const placeholders = [
-    'John Doe',
-    'Frontend developer',
-    'JohnDoe LLC',
-    'johndoe.com',
-    'mail@jonhdoe.com',
-    '+ 1 123 456 7890'
+    'Pascal DUPONT',
+    'Chargé d\'affaires process',
+    'Siège social',
+    'Agence Sud-Est',
+    '8 rue Théodore Monod,',
+    'Zone ECOPARC Nord',
+    '57140',
+    'Norroy Le Veneur',
+    'FRANCE',
+    '+33 6 15 08 30 49',
+    '+33 4 76 84 29 70',
+    'email@steapstailor.com'
   ]
 
   fields.basicPlaceholder = [

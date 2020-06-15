@@ -4,7 +4,7 @@ import { mapState } from 'vuex'
 export default {
   data () {
     return {
-      filterFields: ['Full name', 'Job title', 'Company'],
+      filterFields: ['Full name', 'Job title', 'Company', 'Company line 2', 'Address', 'Address line 2', 'ZIP code', 'City', 'Country'],
       s3url: process.env.VUE_APP_AWS_S3_URL
     }
   },
@@ -48,6 +48,9 @@ export default {
     }
   },
   methods: {
+    formatPhone (value) {
+      return `tel://${value.replace(/\s/g, '')}`
+    },
     formatLink (value) {
       return /^https?/.test(value) ? value : `http://${value}`
     },

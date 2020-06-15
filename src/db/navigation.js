@@ -4,18 +4,18 @@ export default {
       name: 'Basic',
       path: 'basic'
     },
-    {
-      name: 'Social',
-      path: 'social'
-    },
+    // {
+    //   name: 'Social',
+    //   path: 'social'
+    // },
     {
       name: 'Options',
       path: 'options'
     },
-    {
-      name: 'Addons',
-      path: 'addons'
-    },
+    // {
+    //   name: 'Addons',
+    //   path: 'addons'
+    // },
     {
       name: 'Projects',
       path: 'projects'

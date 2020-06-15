@@ -18,7 +18,7 @@
           @active-change="onPreviewSecondaryColor"
         />
       </el-form-item>
-      <el-form-item label="Avatar">
+      <!-- <el-form-item label="Avatar">
         <el-switch v-model="showAvatar" />
       </el-form-item>
       <el-collapse-transition>
@@ -42,7 +42,7 @@
             </el-select>
           </el-form-item>
         </div>
-      </el-collapse-transition>
+      </el-collapse-transition> -->
       <el-form-item label="Font family">
         <el-select v-model="fontFamily">
           <el-option-group
@@ -69,7 +69,7 @@
           />
         </el-select>
       </el-form-item>
-      <el-form-item label="Job separator">
+      <!-- <el-form-item label="Job separator">
         <el-select v-model="separator">
           <el-option
             v-for="item in attributes.separator.options"
@@ -78,7 +78,7 @@
             :value="item.value"
           />
         </el-select>
-      </el-form-item>
+      </el-form-item> -->
     </el-form>
   </div>
 </template>

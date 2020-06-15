@@ -102,7 +102,7 @@
     </div>
     <div class="preview__footer">
       <div class="preview__footer-inner">
-        <donate />
+        <!-- <donate /> -->
         <div class="version">
           <span><a href="mailto:reshetov.art@gmail.com">contact us</a></span>
           <span>v{{ version }}</span>
@@ -148,7 +148,7 @@ import { mapGetters, mapState } from 'vuex'
 import CarbonAd from './CarbonAd'
 import GithubIcon from '../assets/image/github.svg'
 import SuccessPromo from './SuccessPromo'
-import Donate from './Donate'
+// import Donate from './Donate'
 
 export default {
   name: 'Preview',
@@ -156,8 +156,8 @@ export default {
   components: {
     CarbonAd,
     GithubIcon,
-    SuccessPromo,
-    Donate
+    SuccessPromo
+    // Donate
   },
 
   data () {

@@ -8,12 +8,12 @@ const INIT_STATE = {
   },
   font: {
     size: 12,
-    family: 'Arial, Helvetica, sans-serif'
+    family: 'Verdana, Arial, sans-serif'
   },
   color: {
-    main: '#409eff',
+    main: '#0F4895',
     mainPreview: undefined,
-    secondary: '#409eff',
+    secondary: '#888888',
     secondaryPreview: undefined
   },
   separator: '/'
@@ -28,12 +28,12 @@ export default {
     },
     font: {
       size: 12,
-      family: 'Arial, Helvetica, sans-serif'
+      family: 'Verdana, Arial, sans-serif'
     },
     color: {
-      main: '#409eff',
+      main: '#0F4895',
       mainPreview: undefined,
-      secondary: '#409eff',
+      secondary: '#888888',
       secondaryPreview: undefined
     },
     separator: '/'
